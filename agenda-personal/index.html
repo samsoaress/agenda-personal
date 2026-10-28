@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Agenda do personal</title>
+<meta name="theme-color" content="#c8421b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Agenda">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<nav id="nav"><span class="brand" id="brand">Agenda</span>
+<button data-a="go" data-v="agenda">Agenda</button><button data-a="go" data-v="clientes">Clientes</button><button data-a="go" data-v="lembretes">Lembretes</button><button data-a="go" data-v="ajustes">Ajustes</button><button id="install-app" type="button" hidden>Instalar app</button></nav>
+<main id="main"></main>
+</div>
+<dialog id="dlg"></dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
